@@ -4,7 +4,7 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 Werkzeug==0.15.5
-numpy==1.21.5  # Locked to a specific version to ensure compatibility
+numpy==1.23.3  # Locked to a specific version to ensure compatibility
 scipy==1.7.3  # Locked to a specific version to ensure compatibility
 scikit-learn==0.24.2  # Locked to a specific version to ensure compatibility
 matplotlib==3.5.0  # Updated to a newer version
