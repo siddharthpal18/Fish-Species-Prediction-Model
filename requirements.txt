@@ -11,4 +11,4 @@ matplotlib>=1.4.3
 pandas>=0.19
 seaborn==0.13.2
 six>=1.13.0
-pip install --upgrade gunicorn
+
