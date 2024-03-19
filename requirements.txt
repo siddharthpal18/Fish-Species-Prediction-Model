@@ -1,13 +1,12 @@
 Flask==1.1.1
+gunicorn==20.1.0  # Updated to a newer version
 itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 Werkzeug==0.15.5
-numpy>=1.9.2
-scipy>=0.15.1
-scikit-learn>=0.18
-matplotlib>=1.4.3
-pandas>=0.19
+numpy==1.21.5  # Locked to a specific version to ensure compatibility
+scipy==1.7.3  # Locked to a specific version to ensure compatibility
+scikit-learn==0.24.2  # Locked to a specific version to ensure compatibility
+matplotlib==3.5.0  # Updated to a newer version
+pandas==1.3.5  # Updated to a newer version
 seaborn==0.13.2
-six>=1.16.0
-gunicorn>=20.1.0
