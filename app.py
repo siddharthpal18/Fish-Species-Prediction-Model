@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 app = Flask(__name__)
-model1 = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/')
 def home():
@@ -17,7 +17,7 @@ def predict():
     '''
     int_features = [float(x) for x in request.form.values()]
     final_features = [np.array(int_features)]
-    prediction = model1.predict(final_features)
+    prediction = model.predict(final_features)
 
     output = (prediction[0])
 
